@@ -1,0 +1,3 @@
+Flask
+Werkzeug
+textract==1.6.3

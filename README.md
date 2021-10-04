@@ -1,5 +1,6 @@
-A simple Flask [web application](https://jw30.pythonanywhere.com) to extract 8-digit product numbers from PDF files.
+# PDF-To-Product-Code-Extractor
 
-Frontend is created using [nicepage](https://nicepage.com) + JS.
-# PDF-To-Product-Code-Extractor
-# PDF-To-Product-Code-Extractor
+----
+## A Flask application to extract (8Digit) product Code from PDF files
+
+<img src="" />
