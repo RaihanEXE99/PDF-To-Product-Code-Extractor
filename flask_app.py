@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template
 from werkzeug.utils import secure_filename
-from processing import get_numbers
 import os
+from processing import get_numbers
 
 app = Flask(__name__)
 
