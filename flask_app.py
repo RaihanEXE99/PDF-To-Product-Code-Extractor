@@ -1,11 +1,9 @@
 from flask import Flask, request, render_template
 from werkzeug.utils import secure_filename
+from processing import get_numbers
 import os
 
-from processing import get_numbers
-
 app = Flask(__name__)
-
 
 @app.route("/", methods=["GET", "POST"])
 def my_page():
@@ -21,7 +19,6 @@ def my_page():
             return render_template('index.html', output=output_data, flag=1, filename=txt_filename)
 
     return render_template('index.html')
-
 
 if __name__ == "__main__":
     app.run(debug=True)
