@@ -2,9 +2,8 @@ import textract
 import re
 from datetime import datetime
 
-
 def get_numbers(file_path):
-    # Get PDF content and filter for 8 digit numbers
+    # Get The PDF content and filter for 8 digit numbers
     output, out_string = [], ''
     try:
         pdf_content = textract.process(file_path)
